@@ -10,7 +10,7 @@ import { auth } from "../firebase/firebase.config";
 
 const Signin = () => {
 
-  const [user,setUser]= useState({})
+  const [user,setUser]= useState(null)
   const [show,setShow]= useState(false)
 
 
